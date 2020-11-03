@@ -1,0 +1,10 @@
+.footer__copyright {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    flex-shrink: 0;
+    flex-grow: 0;
+    margin-left: auto;
+}
