@@ -8,3 +8,10 @@
         width: 928px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .places {
+        width: 720px;
+        margin: 88px 24px 0 24px;
+    }
+}
