@@ -11,7 +11,7 @@
 
 @media screen and (max-width: 1024px) {
     .place__paragraph{
-        margin-bottom: 27px;
         width: 456px;
+        margin-bottom: 27px;
     }
 }

@@ -8,6 +8,6 @@
 
 @media screen and (max-width: 1024px) {
     .place {
-        row-gap: 32px;
+        gap: 48px 32px;
     }
 }
