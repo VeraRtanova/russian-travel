@@ -4,14 +4,9 @@
     font-size: 18px;
     line-height: 22px;
     text-decoration-line: underline;
-    /*margin-bottom: 48px;*/
     color: #FFFFFF;
-    /*text-align: inherit;*/
-    /*margin: 0 0 48px 0;*/
-    /*grid-column: 2/3;*/
-    /*grid-row-start: 3/4;*/
-    /*align-self: end;*/
-    /*margin-top: 15px;*/
-    /*justify-self: start;*/
+}
 
+.place__link:hover {
+    opacity: 0.8;
 }

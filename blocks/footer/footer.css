@@ -2,4 +2,6 @@
     margin: 92px auto;
     width: 1184px;
     display: flex;
+    justify-content: space-between;
+    padding-bottom: 24px;
 }

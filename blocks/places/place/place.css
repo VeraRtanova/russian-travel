@@ -1,6 +1,7 @@
 .place {
-    /*display: grid;*/
-    /*grid-template-columns:repeat(1, 1fr);*/
-    /*grid-template-rows: repeat(1, 1fr);*/
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: min-content 1fr;
     margin-bottom: 80px;
+    gap: 48px 40px;
 }
