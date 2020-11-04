@@ -7,3 +7,9 @@
     color: #AAAAAA;
     margin-top: 0;
 }
+
+@media screen and (max-width: 320px) {
+    .place__url-heading {
+       display: none;
+    }
+}

@@ -13,3 +13,12 @@
         margin: 48px 24px 0 24px;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .lead__title {
+        margin: 48px 16px 0 16px;
+        font-size: 40px;
+        line-height: 44px;
+        width: 288px;
+    }
+}

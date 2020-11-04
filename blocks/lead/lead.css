@@ -14,3 +14,9 @@
         margin: 0;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .lead {
+        margin: 0 2px;
+    }
+}

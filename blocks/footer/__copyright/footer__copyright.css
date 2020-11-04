@@ -5,3 +5,11 @@
     line-height: 16px;
     color: #FFFFFF;
 }
+
+@media screen and (max-width: 320px) {
+    .footer__copyright {
+        /*display: flex;*/
+        /*flex-direction: column;*/
+        /*align-items: flex-end;*/
+    }
+}

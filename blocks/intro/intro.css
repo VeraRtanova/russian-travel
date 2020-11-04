@@ -1,6 +1,6 @@
 .intro {
-    min-width: 690px;
-    min-height: 429px;
+    width: 690px;
+    height: 429px;
     margin: 0 442px 0 148px;
     color: #FFFFFF;
     text-align: left;
@@ -15,5 +15,13 @@
     .intro {
         width: 720px;
         margin: 0 24px 0 24px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .intro {
+        width: 288px;
+        height: 70px;
+        margin: 0 16px 0 16px;
     }
 }
