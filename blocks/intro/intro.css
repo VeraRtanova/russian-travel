@@ -5,3 +5,8 @@
     color: #FFFFFF;
     text-align: left;
 }
+@media screen and (max-width: 1024px) {
+   .intro {
+       margin: 0 286px 0 48px;
+   }
+}

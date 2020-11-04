@@ -3,3 +3,12 @@
     width: 984px;
     height: 615px;
 }
+
+@media screen and (max-width: 1024px) {
+    .lead__image {
+        margin-top: 56px;
+        width: 100%;
+        /*width: calc(100% - 48px);*/
+        height: 580px;
+    }
+}

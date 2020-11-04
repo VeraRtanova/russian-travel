@@ -1,8 +1,6 @@
 .lead__title {
-    /*position: absolute;*/
     width: 720px;
-    /*height: 200px;*/
-    margin: 136px auto 0;
+    margin: 0 auto;
     font-weight: 900;
     font-size: 96px;
     line-height: 100px;

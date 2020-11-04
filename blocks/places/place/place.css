@@ -5,3 +5,9 @@
     margin-bottom: 80px;
     gap: 48px 40px;
 }
+
+@media screen and (max-width: 1024px) {
+    .place {
+        row-gap: 32px;
+    }
+}
