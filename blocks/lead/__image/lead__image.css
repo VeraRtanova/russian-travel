@@ -13,6 +13,7 @@
 }
 @media (min-width: 321px) and (max-width: 768px) {
     .lead__image {
+        margin-top: 56px;
         height: 480px;
         width: 100%;
     }
