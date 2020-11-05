@@ -13,14 +13,14 @@
     margin-bottom: 0;
 }
 
-@media screen and (max-width: 1024px) {
+@media  (min-width: 769px) and (max-width: 1024px) {
     .place__paragraph{
         width: 456px;
         margin-bottom: 27px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media (min-width: 321px) and (max-width: 768px) {
     .place__paragraph {
         font-size: 16px;
         margin-bottom: 25px;

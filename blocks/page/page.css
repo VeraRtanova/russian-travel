@@ -4,17 +4,24 @@
     background: #2A2C2F;
     margin: 0 auto;
     padding-top: 28px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
 }
 
-@media screen and (max-width: 1024px) {
+@media  (min-width: 769px) and (max-width: 1024px) {
     .page {
-        width: 1024px;
+        max-width: 1024px;
+        min-width: 769px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media (min-width: 321px) and (max-width: 768px) {
     .page {
-        width: 768px;
+        max-width: 768px;
+        min-width: 321px;
     }
 }
 
@@ -24,3 +31,4 @@
         padding-top: 16px;
     }
 }
+

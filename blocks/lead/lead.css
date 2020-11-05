@@ -2,14 +2,14 @@
     margin: 56px 148px 0 148px;
 }
 
-@media screen and (max-width: 1024px) {
+@media  (min-width: 769px) and (max-width: 1024px) {
    .lead {
        margin: 48px 48px 0 48px;
 
    }
 }
 
-@media screen and (max-width: 768px) {
+@media (min-width: 321px) and (max-width: 768px) {
     .lead {
         margin: 0;
     }

@@ -1,6 +1,7 @@
 .footer__links {
     display: flex;
     justify-content: space-between;
+    /*list-style: none;*/
 }
 
 @media screen and (max-width: 320px) {

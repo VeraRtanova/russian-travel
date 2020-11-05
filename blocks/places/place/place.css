@@ -6,13 +6,13 @@
     gap: 48px 40px;
 }
 
-@media screen and (max-width: 1024px) {
+@media  (min-width: 769px) and (max-width: 1024px) {
     .place {
         gap: 48px 32px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media (min-width: 321px) and (max-width: 768px) {
     .place {
         gap: 48px 28px;
     }

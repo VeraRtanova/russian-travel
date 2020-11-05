@@ -6,6 +6,9 @@
     font-size: 16px;
     line-height: 18px;
     margin-right: 18px;
+    /*list-style: none;*/
+    /*padding-left: 0;*/
+    /*margin-left: 0;*/
 }
 
 @media screen and (max-width: 320px) {

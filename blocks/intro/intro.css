@@ -5,13 +5,13 @@
     color: #FFFFFF;
     text-align: left;
 }
-@media screen and (max-width: 1024px) {
+@media  (min-width: 769px) and (max-width: 1024px) {
    .intro {
        margin: 0 286px 0 48px;
    }
 }
 
-@media screen and (max-width: 768px) {
+@media (min-width: 321px) and (max-width: 768px) {
     .intro {
         width: 720px;
         margin: 0 24px 0 24px;
