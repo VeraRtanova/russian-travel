@@ -1,6 +1,6 @@
 .page {
     font-family: Inter, Arial, sans-serif;
-    width: 1280px;
+    max-width: 1280px;
     background: #2A2C2F;
     margin: 0 auto;
     padding-top: 28px;
@@ -11,24 +11,23 @@
     -moz-text-size-adjust: 100%;
 }
 
-@media  (min-width: 769px) and (max-width: 1024px) {
-    .page {
-        max-width: 1024px;
-        min-width: 769px;
-    }
-}
+/*@media  (min-width: 769px) and (max-width: 1280px) {*/
+/*    .page {*/
+/*        width: 100%;*/
+/*    }*/
+/*}*/
 
-@media (min-width: 321px) and (max-width: 768px) {
-    .page {
-        max-width: 768px;
-        min-width: 321px;
-    }
-}
+/*@media (min-width: 321px) and (max-width: 768px) {*/
+/*    .page {*/
+/*        max-width: 768px;*/
+/*        min-width: 321px;*/
+/*    }*/
+/*}*/
 
-@media screen and (max-width: 320px) {
-    .page {
-        width: 320px;
-        padding-top: 16px;
-    }
-}
+/*@media screen and (max-width: 320px) {*/
+/*    .page {*/
+/*        width: 320px;*/
+/*        padding-top: 16px;*/
+/*    }*/
+/*}*/
 
