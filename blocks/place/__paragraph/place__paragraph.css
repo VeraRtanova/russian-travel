@@ -1,5 +1,5 @@
 .place__paragraph {
-    width: 484px;
+    width: 100%;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -13,25 +13,24 @@
     margin-bottom: 0;
 }
 
-@media  (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1279px) {
     .place__paragraph{
-        width: 456px;
         margin-bottom: 27px;
     }
 }
 
-@media (min-width: 321px) and (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1023px) {
     .place__paragraph {
         font-size: 16px;
         margin-bottom: 25px;
-        width: 352px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .place__paragraph {
-        width: 288px;
+        width: calc(100% - 24px);
         font-size: 16px;
-        margin: 16px 16px 0 16px;
+        margin: 0 16px 25px 16px;
+
     }
 }

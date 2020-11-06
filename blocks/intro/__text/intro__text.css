@@ -4,11 +4,11 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 163%;
-    height: 208px;
+    /*height: 208px;*/
 }
 
-@media screen and (max-width: 320px) {
-    .intro__text {
-        height: 520px;
-    }
-}
+/*@media screen and (max-width: 767px) {*/
+/*    .intro__text {*/
+/*        height: 520px;*/
+/*    }*/
+/*}*/
