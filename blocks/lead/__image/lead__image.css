@@ -1,10 +1,7 @@
 .lead__image {
     margin-top: 64px;
-    /*width: calc(100% - 296px);*/
-    /*height: auto;*/
     width: 100%;
     min-height: 615px;
-    /*margin: 64px 148px 148px 0;*/
 }
 
 @media  (min-width: 1024px) and (max-width: 1279px)  {
