@@ -1,19 +1,17 @@
 .footer__links {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns:repeat(5, min-content);
+    column-gap: 18px;
     list-style: none;
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 
-@media screen and (min-width: 321px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .footer__links {
-        flex-direction: column;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .footer__links {
-        flex-direction: column;
+        grid-template-columns:repeat(1, min-content);
+        grid-template-rows:repeat(5, min-content);
+        row-gap: 32px;
     }
 }
