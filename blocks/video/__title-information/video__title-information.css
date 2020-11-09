@@ -1,0 +1,6 @@
+.video__title-information {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    z-index: 2;
+}

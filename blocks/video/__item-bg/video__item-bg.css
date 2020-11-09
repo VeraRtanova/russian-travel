@@ -1,0 +1,5 @@
+.video__item-bg {
+    max-width: 100%;
+    border-radius: 5px;
+    z-index: 0;
+}
