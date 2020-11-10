@@ -1,3 +1,10 @@
 .comment__image {
     border-radius: 50px;
 }
+
+/*@media (min-width: 768px) and (max-width: 1023px) {*/
+/*    .comment__container {*/
+/*        align-items: center;*/
+/*        justify-items: center;*/
+/*    }*/
+/*}*/

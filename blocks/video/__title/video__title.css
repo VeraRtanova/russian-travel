@@ -2,7 +2,13 @@
     font-weight: 900;
     font-size: 36px;
     line-height: 39px;
-    width: 322px;
+    max-width: 322px;
     color: #FFFFFF;
     margin: 12px 0 0;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .video__title {
+        margin: 8px 0 0;
+    }
 }

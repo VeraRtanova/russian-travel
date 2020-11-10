@@ -6,3 +6,21 @@
     letter-spacing: 0.3em;
     color: #FFFFFF;
 }
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .video__duration {
+        margin: 54px 0 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .video__duration {
+        margin: 36px 0 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .video__duration {
+        margin: 49px 0 0;
+    }
+}
