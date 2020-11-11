@@ -2,3 +2,15 @@
     width: calc(100% - 96px);
     margin: 102px 48px 0 48px;
 }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .video {
+        margin: 95px 24px 0 24px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .video {
+        margin: 64px auto;
+    }
+}

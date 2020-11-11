@@ -1,8 +1,17 @@
 .video__content-subtitle {
-    width: calc(100% - 544px);
+    width: 640px;
     font-size: 24px;
     line-height: 35px;
     text-align: center;
     color: #FFFFFF;
     margin: 48px auto 0;
 }
+
+@media screen and (max-width: 767px) {
+    .video__content-subtitle {
+        width: 288px;
+        font-size: 16px;
+        line-height: 23px;
+    }
+}
+

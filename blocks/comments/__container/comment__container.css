@@ -12,9 +12,19 @@
         grid-template-columns: 1fr;
         margin: 72px 193px 0 193px;
         width: 288px;
-        /*width: 100%;*/
         justify-self: center;
-        text-align:center;
-         row-gap: 48px;
+        text-align: center;
+        row-gap: 48px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .comment__container {
+        grid-template-columns: 1fr;
+        margin: 48px auto;
+        width: 288px;
+        justify-self: center;
+        text-align: center;
+        row-gap: 48px;
     }
 }
