@@ -16,8 +16,6 @@
 
 @media (min-width: 768px) and (max-width: 1023px) {
     .video__content-title {
-        /*width: calc(100% - 277%);*/
-        /*margin: 0 162px;*/
         font-size: 42px;
         line-height: 46px;
         width: 433px;
@@ -26,7 +24,6 @@
 
 @media screen and (max-width: 767px) {
     .video__content-title {
-        /*margin: 0;*/
         width: 288px;
         font-size: 32px;
         line-height: 35px;

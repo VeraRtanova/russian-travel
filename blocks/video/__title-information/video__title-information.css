@@ -10,14 +10,6 @@
 
 @media  (min-width: 1024px) and (max-width: 1279px) {
     .video__title-information {
-        /*width: 456px;*/
         height: 223px;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 1023px) {
-    .video__title-information {
-        /*width: 352px;*/
-        /*height: 152px;*/
     }
 }
