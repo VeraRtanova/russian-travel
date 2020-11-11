@@ -4,16 +4,15 @@
     height: 323px;
     overflow: hidden;
 }
-
-.cover:before {
+.video__item:before {
     content: " ";
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     min-height: 100%;
-    background: #2A2C2F;
-    opacity: 0.3;
+    background: #000000;
+    opacity: 0.5;
 }
 
 @media  (min-width: 1024px) and (max-width: 1279px) {
